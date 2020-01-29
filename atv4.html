@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title> projeto </title>
+	<script> 
+	function primo()
+	{
+		var numero = prompt("entre com o numero para ser verificado:","")
+		var i
+		var div = 0
+		var string
+
+		for(i=1; i< Math.sqrt(numero); i++)
+		{ 
+		    if (numero%i == 0) 
+		    { 
+		        div++;
+		    }
+		}
+
+		if(div == 1 && numero != 1)
+		{ 
+		    string ="Primo."
+		}
+		else 
+		{ 
+		    string= "Nao Primo."
+		}
+
+		alert(string)
+		
+	}
+	</script>
+
+	</head>
+
+	<body>
+		<input type = "button" name = "primo" value = "verifica se primo" OnClick = "primo()">
+	</body>
+
+</html>

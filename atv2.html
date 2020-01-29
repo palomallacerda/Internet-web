@@ -1,0 +1,26 @@
+<HTML>
+	<HEAD>
+		<TITLE>  soma dos quadrados </TITLE>
+		<SCRIPT LANGUAGE = "JAVASCRIPT"> 
+			document.write("<h2>"+" soma dos quadrados dos 10 primeiros números inteiros "+" </h2>")
+			
+			function soma(i)
+			{
+				var i = 1
+				var soma = 0
+				for(i = 1; i < 10 ; i++) 
+				{
+					soma += i*i	
+					document.write("soma dos quadrados "+soma+" <BR>")		
+				}
+			}
+		</SCRIPT>
+	</HEAD>
+
+<BODY>
+		<FORM>
+		<input type= "button" name = "Calcula erros JavaScript" value = "verificar os erros" Onclick = "soma()">
+		</FORM>
+
+</BODY>
+</HTML>

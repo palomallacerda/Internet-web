@@ -1,0 +1,26 @@
+<HTML>
+	<HEAD>
+		<TITLE> Verificando a quantidade de errros esperados </TITLE>
+		<SCRIPT LANGUAGE = "JAVASCRIPT"> 
+			document.write("<h2>"+" Erros cometidos pelo aluno "+" </h2>")
+			
+			function cheack(i)
+			{
+				var i = 1
+				var erros = 1
+				for(i = 0; i < 15 ; i++) //verificando os erros//
+				{
+					erros = erros*2	
+				}
+				document.write("Quantidade de erros "+erros+" <BR>")		
+			}
+		</SCRIPT>
+	</HEAD>
+
+<BODY>
+		<FORM>
+		<input type= "button" name = "Calcula erros JavaScript" value = "verificar os erros" Onclick = "cheack()">
+		</FORM>
+
+</BODY>
+</HTML>
